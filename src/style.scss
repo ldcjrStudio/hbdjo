@@ -21,9 +21,18 @@ p {
 h1 {
   font-size: 60px;
 }
-// #main-content{
-//     display:
-// }
+#main-content {
+  width: 100%;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
 
 footer #footer {
   position: relative;

@@ -7,7 +7,7 @@ const Hero = () => {
     <section id="hero">
       <div>
         <h1>Today we celebrate a Queen's Birthday!</h1>
-        <div>
+        <div className="hero">
           <img src={mainpic} />
           <div className="jo">
             <h2>Jordaan Scott</h2>
