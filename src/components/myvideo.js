@@ -1,12 +1,17 @@
-import React from 'react'
+import React from "react"
 
-const Video = () => {
-    return (
-        <section>
-            <h1>
-                Lets see what her friends and family have to say about her...
-            </h1>
-
-        </section>
-    )
+const Myvideo = () => {
+  return (
+    <section id="video">
+      <h1>Lets see what her friends and family have to say about her...</h1>
+      <div className="video-container">
+        <iframe
+          className="video-iframe"
+          src="https://jobirthday.s3.amazonaws.com/Jordaans+Birthday.m4v"
+        ></iframe>
+      </div>
+    </section>
+  )
 }
+
+export default Myvideo

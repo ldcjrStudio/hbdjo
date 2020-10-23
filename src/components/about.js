@@ -23,10 +23,6 @@ const About = () => {
           about her, but lets hear what her friends and family have to say....
         </p>
       </div>
-
-      {/* <div>
-        <iframe src="https://jobirthday.s3.amazonaws.com/1.mov"></iframe>
-      </div> */}
     </section>
   )
 }

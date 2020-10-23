@@ -18,6 +18,7 @@ import "../style.scss"
 import Photoset1 from "../components/photoset1"
 import Photoset3 from "../components/photoset3"
 import Photoset2 from "../components/photoset2"
+import Myvideo from "../components/myvideo"
 
 const HomeIndex = ({ location }) => {
   return (
@@ -25,6 +26,7 @@ const HomeIndex = ({ location }) => {
       {/* <SEO title="Happy Birthday Jordaan!" /> */}
       <Hero />
       <About />
+      <Myvideo />
       <Photoset2 />
       <Photoset1 />
       <Photoset3 />
