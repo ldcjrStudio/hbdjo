@@ -26,7 +26,7 @@ const HomeIndex = ({ location }) => {
       {/* <SEO title="Happy Birthday Jordaan!" /> */}
       <Hero />
       <About />
-      <Myvideo />
+      {/* <Myvideo /> */}
       <Photoset2 />
       <Photoset1 />
       <Photoset3 />

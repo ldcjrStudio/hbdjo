@@ -12,15 +12,18 @@ const About = () => {
       </div>
       <div className="copy">
         <p>
-          To the naked eye, you can see her beauty, you can see her shine. But
-          what is it . Radian beauty. Nearly almost perfect skin. Beatuty
-          fashinoista. Who has the world at her hands. Grinds out. What else
-          could their be besides her hard work ethic.. Well Well lets see what
-          her family and friends have to say about her To the naked eye, you can
-          see all of her beauty. She is just georgous. Bu twha tyo uwouldnt know
-          about is her loving nature, kindness, nurturing demeanor, that she's
-          fun and a lover of bacon. There's so many more things you wouldnt know
-          about her, but lets hear what her friends and family have to say....
+          There's so much to say about Jordaan, where do we even start! To the
+          naked eye, we can all see that she is truly stunning and carries
+          herself with elegance. But her beauty isnt the only thing she is
+          admired for. Jordaan is intelligent, ambitious, funny, caring, loving,
+          kind, and she completely shifts the energy of any room she enters.
+          I've heard some people say they felt purely BLESSED just to share the
+          same presence with her. Anyways, I can go all day with this, but lets
+          hear what her friends and family members have to say{" "}
+          <a href="https://jobirthday.s3.amazonaws.com/Jordaans+Birthday.m4v">
+            {" "}
+            here.
+          </a>
         </p>
       </div>
     </section>
