@@ -2,8 +2,8 @@ import React from "react"
 
 const Last = () => {
   return (
-    <secion>
-      <div>
+    <secion id="last">
+      <div className="last">
         <h3>
           If you havent already sent some love and appreciation to Jordaan to
           day.. feel free to send her some funds!

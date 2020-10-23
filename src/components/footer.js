@@ -3,10 +3,8 @@ import React from "react"
 const Footer = () => {
   return (
     <section id="footer">
-      <div id="footer">
-        <p>
-          Built with ❤️ by <a href="https://ldcjr.dev">Leroy</a>
-        </p>
+      <div className="footer">
+        <p>Built with ❤️</p>
       </div>
     </section>
   )

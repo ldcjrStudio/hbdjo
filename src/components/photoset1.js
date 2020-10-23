@@ -7,6 +7,10 @@ const Photoset1 = () => {
       src: "https://jobirthday.s3.amazonaws.com/Jo1.jpg",
     },
     {
+      id: "1",
+      src: "https://jobirthday.s3.amazonaws.com/friends25.jpg",
+    },
+    {
       id: "2",
       src: "https://jobirthday.s3.amazonaws.com/Jo2.jpg",
     },
@@ -26,13 +30,38 @@ const Photoset1 = () => {
       id: "6",
       src: "https://jobirthday.s3.amazonaws.com/Jo6.jpg",
     },
-    {
-      id: "7",
-      src: "https://jobirthday.s3.amazonaws.com/Jo7.jpg",
-    },
+
     {
       id: "8",
       src: "https://jobirthday.s3.amazonaws.com/Jo8.jpg",
+    },
+    {
+      id: "8",
+      src: "https://jobirthday.s3.amazonaws.com/joo7.jpg",
+    },
+    {
+      id: "8",
+      src: "https://jobirthday.s3.amazonaws.com/joo6.jpg",
+    },
+    {
+      id: "8",
+      src: "https://jobirthday.s3.amazonaws.com/joo2.jpg",
+    },
+    {
+      id: "8",
+      src: "https://jobirthday.s3.amazonaws.com/joo3.jpg",
+    },
+    {
+      id: "8",
+      src: "https://jobirthday.s3.amazonaws.com/joo5.jpg",
+    },
+    {
+      id: "8",
+      src: "https://jobirthday.s3.amazonaws.com/joo1.jpg",
+    },
+    {
+      id: "8",
+      src: "https://jobirthday.s3.amazonaws.com/joo4.jpg",
     },
   ]
   return (
@@ -41,7 +70,12 @@ const Photoset1 = () => {
 
       <div className="photo-container">
         {set1.map(data => (
-          <div className="photo">
+          <div
+            className="photo"
+            data-sal="slide-up"
+            data-sal-easing="ease-out-bounce"
+            data-sal-duration="200"
+          >
             <img src={data.src} alt={data.id} />
           </div>
         ))}

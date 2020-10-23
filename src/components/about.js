@@ -4,7 +4,12 @@ import aboutimg from "../images/2.jpeg"
 
 const About = () => {
   return (
-    <section id="about">
+    <section
+      id="about"
+      data-sal="slide-up"
+      data-sal-easing="ease-out-bounce"
+      data-sal-duration="500"
+    >
       <div className="about">
         <h1>
           <img src="https://jobirthday.s3.amazonaws.com/2.jpeg" />
@@ -17,12 +22,12 @@ const About = () => {
           herself with elegance. But her beauty isnt the only thing she is
           admired for. Jordaan is intelligent, ambitious, funny, caring, loving,
           kind, and she completely shifts the energy of any room she enters.
-          I've heard some people say they felt purely BLESSED just to share the
-          same presence with her. Anyways, I can go all day with this, but lets
-          hear what her friends and family members have to say{" "}
+          I've heard some people say they felt purely BLESSED just to be in her
+          presence. Anyways, I can go all day with this, but lets hear what her
+          friends and family members have to say,{" "}
           <a href="https://jobirthday.s3.amazonaws.com/Jordaans+Birthday.m4v">
             {" "}
-            here.
+            HERE.
           </a>
         </p>
       </div>

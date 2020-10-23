@@ -27,9 +27,9 @@ const HomeIndex = ({ location }) => {
       <Hero />
       <About />
       {/* <Myvideo /> */}
+      <Photoset3 />
       <Photoset2 />
       <Photoset1 />
-      <Photoset3 />
 
       <Last />
     </Layout>

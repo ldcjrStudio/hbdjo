@@ -9,7 +9,13 @@ const Hero = ({ data }) => {
           Today, we celebrate <br></br>a Queen's Birthday.
         </h1>
         <div className="hero">
-          <div className="pic">
+          <div
+            className="pic"
+            data-sal="slide-up"
+            data-sal-easing="ease-out-bounce"
+            data-sal-duration="500"
+            data-sal-delay="250"
+          >
             <img src="https://jobirthday.s3.amazonaws.com/1.jpeg" />
             <div className="jo">
               <h2>

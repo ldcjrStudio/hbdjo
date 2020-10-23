@@ -42,6 +42,10 @@ const Photoset3 = () => {
       id: "10",
       src: "https://jobirthday.s3.amazonaws.com/fam10.jpg",
     },
+    {
+      id: "7",
+      src: "https://jobirthday.s3.amazonaws.com/Jo7.jpg",
+    },
   ]
   return (
     <section>
@@ -49,7 +53,12 @@ const Photoset3 = () => {
 
       <div className="photo-container">
         {set1.map(data => (
-          <div className="photo">
+          <div
+            className="photo"
+            data-sal="slide-up"
+            data-sal-easing="ease-out-bounce"
+            data-sal-duration="200"
+          >
             <img src={data.src} alt={data.id} />
           </div>
         ))}
