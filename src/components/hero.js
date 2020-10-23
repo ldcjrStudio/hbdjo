@@ -1,16 +1,21 @@
 import React from "react"
+import Img from "gatsby-image"
 
-import mainpic from "../images/Jo/1.jpeg"
-
-const Hero = () => {
+const Hero = ({ data }) => {
   return (
     <section id="hero">
-      <div>
-        <h1>Today we celebrate a Queen's Birthday!</h1>
+      <div className="container">
+        <h1>
+          Today, we celebrate <br></br>a Queen's Birthday.
+        </h1>
         <div className="hero">
-          <img src={mainpic} />
-          <div className="jo">
-            <h2>Jordaan Scott</h2>
+          <div className="pic">
+            <img src="https://jobirthday.s3.amazonaws.com/1.jpeg" />
+            <div className="jo">
+              <h2>
+                Jordaan E. <br></br>Scott
+              </h2>
+            </div>
           </div>
         </div>
       </div>

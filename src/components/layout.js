@@ -6,11 +6,8 @@ import Footer from "../components/footer"
 
 const Layout = ({ location, title, children }) => {
   return (
-    <div className="global-wrapper">
-      <header
-        className="global-header
-      "
-      ></header>
+    <div>
+      <header></header>
       <main id="main-content">{children}</main>
       <Footer />
     </div>

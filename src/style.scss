@@ -8,6 +8,7 @@ body {
   color: #fcfefc;
   font-family: "Sora", sans-serif;
   font-size: 18px;
+  line-height: 1.4;
 }
 h1,
 h2,
@@ -19,23 +20,109 @@ p {
   color: $white;
 }
 h1 {
-  font-size: 60px;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 48px;
+}
+p {
+  font-size: 24px;
+}
+
+img {
+  border-radius: 3px;
 }
 #main-content {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 996px;
+  margin: 0 auto;
 }
 
 #hero {
   height: 100vh;
   width: 100%;
+  padding: 24px 0;
+
+  .container {
+    width: 100%;
+    position: relative;
+    h1 {
+      margin-left: 100px;
+      margin-bottom: 24px;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .pic {
+      width: 400px;
+      position: relative;
+    }
+    .jo {
+      position: absolute;
+      bottom: 10%;
+      right: -25%;
+    }
+  }
+
+  //   img {
+  //     width: 100%;
+  //   }
+}
+
+#about {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
   img {
-    width: 100%;
+    width: 375px;
+    height: auto;
+  }
+
+  .about {
+    width: 50%;
+    // padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copy {
+    padding: 24px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 footer #footer {
   position: relative;
   bottom: 0;
-  left: 0;
+  center: 0;
+}
+
+.photo-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .photo {
+    width: 300px;
+    height: auto;
+    margin: 12px;
+    img {
+      width: 100%;
+    }
+  }
 }
