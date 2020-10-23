@@ -115,7 +115,7 @@ footer #footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 
   .photo {
     width: 300px;

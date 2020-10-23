@@ -37,7 +37,7 @@ const Photoset1 = () => {
   ]
   return (
     <section>
-      <h1>A queen</h1>
+      <h1>Jordaan E. Scott</h1>
 
       <div className="photo-container">
         {set1.map(data => (
