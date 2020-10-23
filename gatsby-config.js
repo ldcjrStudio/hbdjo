@@ -10,7 +10,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sass`,
-    `gatsby-plugin-feed`,
+    // `gatsby-plugin-feed`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
 

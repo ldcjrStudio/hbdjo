@@ -14,7 +14,7 @@ import About from "../components/about"
 //STYLES
 import "../base.css"
 import "../style.scss"
-import Photoset1 from "../components/photos1"
+import Photoset1 from "../components/photoset1"
 
 const HomeIndex = ({ location }) => {
   return (
