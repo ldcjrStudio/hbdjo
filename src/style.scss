@@ -186,6 +186,10 @@ a {
   }
   #hero {
     .container {
+      text-align: center;
+      h1 {
+        margin-left: 0px;
+      }
       .pic {
         width: 300px;
       }
